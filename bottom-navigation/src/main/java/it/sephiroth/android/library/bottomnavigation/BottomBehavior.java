@@ -339,6 +339,10 @@ public class BottomBehavior extends VerticalScrollingBehavior<BottomNavigation> 
         }
     }
 
+    public void setScrollable(boolean scrollable) {
+        this.scrollable = scrollable;
+    }
+
     public abstract static class DependentView<V extends View> {
         protected final V child;
         protected final MarginLayoutParams layoutParams;
