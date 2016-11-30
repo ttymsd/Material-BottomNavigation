@@ -38,7 +38,7 @@ dependencies {
 }
 
 
-apply from: '../checkstyle.gradle'
-apply from: 'https://raw.githubusercontent.com/sephiroth74/gradle-mvn-push/master/gradle-mvn-push.gradle'
-
-uploadArchives.dependsOn 'check'
+//apply from: '../checkstyle.gradle'
+//apply from: 'https://raw.githubusercontent.com/sephiroth74/gradle-mvn-push/master/gradle-mvn-push.gradle'
+//
+//uploadArchives.dependsOn 'check'
